@@ -4,19 +4,19 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_master"
-            android:icon="@drawable/ic_add_black_24dp"
+            android:icon="@drawable/ic_assignment_black_24dp"
             android:title="Master" />
         <item
             android:id="@+id/nav_transaksi"
-            android:icon="@drawable/ic_mode_edit_black_24dp"
+            android:icon="@drawable/ic_add_black_24dp"
             android:title="Transaksi" />
         <item
             android:id="@+id/nav_laporan"
-            android:icon="@drawable/ic_help_black_24dp"
+            android:icon="@drawable/ic_chat_bubble_outline_black_24dp"
             android:title="Laporan" />
         <item
             android:id="@+id/nav_keluar"
-            android:icon="@drawable/ic_help_black_24dp"
+            android:icon="@drawable/ic_power_settings_new_black_24dp"
             android:title="Keluar" />
     </group>
 
