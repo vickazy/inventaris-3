@@ -15,42 +15,6 @@
             android:layout_margin="8dp">
 
             <EditText
-                android:id="@+id/noUrutBarang"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:hint="No Urut" />
-        </android.support.design.widget.TextInputLayout>
-
-        <android.support.design.widget.TextInputLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="8dp">
-
-            <EditText
-                android:id="@+id/kodeSumber"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:hint="Kode Sumber" />
-        </android.support.design.widget.TextInputLayout>
-
-        <android.support.design.widget.TextInputLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="8dp">
-
-            <EditText
-                android:id="@+id/keterangan"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:hint="Keterangan" />
-        </android.support.design.widget.TextInputLayout>
-
-        <android.support.design.widget.TextInputLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="8dp">
-
-            <EditText
                 android:id="@+id/kodeBarang"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -75,10 +39,10 @@
             android:layout_margin="8dp">
 
             <EditText
-                android:id="@+id/kodeInventaris"
+                android:id="@+id/jenisBarang"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Kode Inventaris" />
+                android:hint="Jenis Barang" />
         </android.support.design.widget.TextInputLayout>
 
         <android.support.v7.widget.AppCompatButton
