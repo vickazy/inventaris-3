@@ -4,6 +4,13 @@ public class Config {
     //URL to our login.php file
     public static final String LOGIN_URL = "http://inventarissekolah.16mb.com/login.php";
 
+    public static final String URL_ADD = "http://inventarissekolah.16mb.com/create.php";
+
+    // Filed yang digunakan untuk dikirimkan ke Database, sesuaikan saja dengan Field di Tabel
+    public static final String KEY_INPUT_TIPE_BARANG = "tipe_barang";
+    public static final String KEY_INPUT_KELAS = "kelas";
+    public static final String KEY_INPUT_ID = "id";
+
     //Keys for email and password as defined in our $_POST['key'] in login.php
     public static final String KEY_EMAIL = "email";
     public static final String KEY_PASSWORD = "password";
