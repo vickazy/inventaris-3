@@ -35,11 +35,6 @@
         <activity android:name=".Master_barang_form" />
         <activity android:name=".Master_lokasipenempatanbarang_form" />
         <activity android:name=".Master_sumberpengadaanbarang_form" />
-        <activity android:name=".Transaksi_mutasibarang_form" />
-        <activity android:name=".Transaksi_pemeliharaanbarang_form" />
-        <activity android:name=".Transaksi_penempatanbarang_form" />
-        <activity android:name=".Transaksi_pengadaanbarang_form" />
-        <activity android:name=".Transaksi_pengkodean_form"></activity>
     </application>
 
 </manifest>
