@@ -31,8 +31,8 @@ public class Home extends AppCompatActivity
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(Home.this, Kelas.class);
-                startActivity(intent);
+                //Intent intent = new Intent(Home.this, Kelas.class);
+                //startActivity(intent);
             }
         });
 
@@ -71,7 +71,7 @@ public class Home extends AppCompatActivity
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
+        if (id == R.id.action_logout) {
             logout();
         }
 
@@ -84,13 +84,16 @@ public class Home extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.nav_tambah) {
-            Intent intent = new Intent(Home.this, Input.class);
+        if (id == R.id.nav_master) {
+            Intent intent = new Intent(Home.this, Master.class);
+            startActivity(intent);
+        } else if (id == R.id.nav_transaksi) {
+            Intent intent = new Intent(Home.this, Transaksi.class);
             startActivity(intent);
         } else if (id == R.id.nav_laporan) {
             Intent intent = new Intent(Home.this, Laporan.class);
             startActivity(intent);
-        } else if (id == R.id.nav_help) {
+        } else if (id == R.id.nav_keluar) {
             //Intent intent = new Intent(Home.this, Help.class);
             //startActivity(intent);
         }

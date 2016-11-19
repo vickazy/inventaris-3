@@ -21,8 +21,17 @@
             android:name=".Home"
             android:label="@string/title_activity_home"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".Input" />
-        <activity android:name=".Laporan"></activity>
+        <activity android:name=".Master_sumberpengadaanbarang" />
+        <activity android:name=".Master_barang" />
+        <activity android:name=".Master_lokasipenempatanbarang" />
+        <activity android:name=".Master" />
+        <activity android:name=".Transaksi" />
+        <activity android:name=".Laporan" />
+        <activity android:name=".Transaksi_pengadaanbarang" />
+        <activity android:name=".Transaksi_pengkodean" />
+        <activity android:name=".Transaksi_penempatanbarang" />
+        <activity android:name=".Transaksi_mutasibarang" />
+        <activity android:name=".Transaksi_pemeliharaanbarang"></activity>
     </application>
 
 </manifest>
