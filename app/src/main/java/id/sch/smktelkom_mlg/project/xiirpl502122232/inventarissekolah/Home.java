@@ -86,8 +86,8 @@ public class Home extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.nav_tambah) {
-            //Intent intent = new Intent(Home.this, Input.class);
-            //startActivity(intent);
+            Intent intent = new Intent(Home.this, Input.class);
+            startActivity(intent);
         } else if (id == R.id.nav_laporan) {
             //Intent intent = new Intent(Home.this, Laporan.class);
             //startActivity(intent);
