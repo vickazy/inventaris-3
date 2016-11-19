@@ -5,7 +5,7 @@
     android:id="@+id/activity_laporan"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="id.sch.smktelkom_mlg.project.xiirpl502122232.inventarissekolah.LaporanActivity">
+    tools:context="id.sch.smktelkom_mlg.project.xiirpl502122232.inventarissekolah.Laporan">
 
     <LinearLayout
         android:id="@+id/activity_input"
@@ -75,4 +75,5 @@
             android:text="Simpan" />
 
     </LinearLayout>
+
 </ScrollView>
