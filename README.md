@@ -40,10 +40,10 @@ https://drive.google.com/a/smktelkom-mlg.sch.id/file/d/0BywoWB4h_-aNTmRqVGVkelRR
 
 <h2>Identitas Anggota</h2>
 <h3>Kelompok 2 Kelas XIIR5</h3><br>
-1. Ani Satun Khusnul Haque  (02) <br>
-2. Dani Sungkar Mawarni     (12) <br>
-3. Muhamad Irfan Nafiyanto  (22) <br>
-4. Rifani Ira Pajira        (32) <br>
+1. Ani Satun Khusnul Haque  (02 - ) <br>
+2. Dani Sungkar Mawarni     (12 - 4319/1217.070 - danisungkar) <br>
+3. Muhamad Irfan Nafiyanto  (22 - 4376/1274.063 - rifaniira)<br>
+4. Rifani Ira Pajira        (32 - 4422/1320.063 - nafirfan)<br>
 <br>
 </p>
 
