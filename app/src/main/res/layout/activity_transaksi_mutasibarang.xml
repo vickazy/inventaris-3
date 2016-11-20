@@ -42,7 +42,7 @@
                 android:id="@+id/lokasiLama"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Lokasi Baru" />
+                android:hint="Lokasi Lama" />
         </android.support.design.widget.TextInputLayout>
 
         <android.support.design.widget.TextInputLayout
