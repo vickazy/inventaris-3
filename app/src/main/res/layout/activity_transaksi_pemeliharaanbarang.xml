@@ -50,32 +50,37 @@
             android:layout_height="wrap_content"
             android:layout_margin="8dp">
 
-            <TextView
-                android:id="@+id/kondisiBarang"
+            <EditText
+                android:id="@+id/editTextBaik"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Kondisi Barang : " />
-
-            <CheckBox
-                android:id="@+id/kondisiBarangBaik"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Baik" />
-
-            <CheckBox
-                android:id="@+id/kondisiBarangRusak"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Rusak" />
-
-            <CheckBox
-                android:id="@+id/kondisiBarangHilang"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Hilang" />
-
-
+                android:hint="baik" />
         </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp">
+
+            <EditText
+                android:id="@+id/editTextRusak"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="rusak" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp">
+
+            <EditText
+                android:id="@+id/editTextHilang"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="hilang" />
+        </android.support.design.widget.TextInputLayout>
+
 
         <android.support.v7.widget.AppCompatButton
             android:id="@+id/buttonSubmit"

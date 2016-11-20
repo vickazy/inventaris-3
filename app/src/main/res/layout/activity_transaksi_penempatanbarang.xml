@@ -15,10 +15,10 @@
             android:layout_margin="8dp">
 
             <EditText
-                android:id="@+id/kodeBagian"
+                android:id="@+id/noUrut"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Kode Bagian" />
+                android:hint="No. Urut" />
         </android.support.design.widget.TextInputLayout>
 
         <android.support.design.widget.TextInputLayout
@@ -27,10 +27,34 @@
             android:layout_margin="8dp">
 
             <EditText
-                android:id="@+id/namaBagian"
+                android:id="@+id/kodeInventaris"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Nama Bagian" />
+                android:hint="Kode Inventaris" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp">
+
+            <EditText
+                android:id="@+id/kodeLokasi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Kode Lokasi" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp">
+
+            <EditText
+                android:id="@+id/jumlah"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Jumlah" />
         </android.support.design.widget.TextInputLayout>
 
         <android.support.v7.widget.AppCompatButton

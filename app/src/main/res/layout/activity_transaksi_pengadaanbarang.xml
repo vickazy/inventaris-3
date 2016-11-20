@@ -51,18 +51,6 @@
             android:layout_margin="8dp">
 
             <EditText
-                android:id="@+id/keterangan"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:hint="Keterangan" />
-        </android.support.design.widget.TextInputLayout>
-
-        <android.support.design.widget.TextInputLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="8dp">
-
-            <EditText
                 android:id="@+id/spesifikasi"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -79,18 +67,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Kode Barang" />
-        </android.support.design.widget.TextInputLayout>
-
-        <android.support.design.widget.TextInputLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="8dp">
-
-            <EditText
-                android:id="@+id/namaBarang"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:hint="Nama Barang" />
         </android.support.design.widget.TextInputLayout>
 
         <android.support.design.widget.TextInputLayout

@@ -44,4 +44,45 @@ public class Config {
     public static final String MASTER_LOKASI_URL = "http://inventarissekolah.16mb.com/inventaris/input_master_lokasipenempatan.php";
     public static final String KEY_KODE_BGN = "kode_bgn";
     public static final String KEY_NAMA_BGN = "nama_bgn";
+
+    //INPUT TRANSAKSI PENGADAAN
+    public static final String TRANSAKSI_PENGADAAN = "http://inventarissekolah.16mb.com/inventaris/input_transaksi_pengadaanbarang.php";
+    public static final String KEY_PENGADAANBARANG_NOURUT = "no_urut";
+    public static final String KEY_PENGADAANBARANG_KODESUMBER = "kode";
+    public static final String KEY_PENGADAANBARANG_MERKBARANG = "merk";
+    public static final String KEY_PENGADAANBARANG_SPEK = "spesifikasi";
+    public static final String KEY_PENGADAANBARANG_KODEBARANG = "kode_brg";
+    public static final String KEY_PENGADAANBARANG_JUMLAH = "jumlah";
+    public static final String KEY_PENGADAANBARANG_TAHUN = "tahun";
+
+    //INPUT TRANSAKSI MUTASI
+    public static final String TRANSAKSI_MUTASI = "http://inventarissekolah.16mb.com/inventaris/input_transaksi_mutasibarang.php";
+    public static final String KEY_MUTASIBARANG_NOURUT = "no_urut";
+    public static final String KEY_MUTASIBARANG_KODEINVENTARIS = "kode_akhir";
+    public static final String KEY_MUTASIBARANG_LOKASIBARU = "lok_baru";
+    public static final String KEY_MUTASIBARANG_LOKASILAMA = "lok_lama";
+    public static final String KEY_MJUTASIBARANG_JUMLAH = "jumlah";
+
+    //INPUT TRANSAKSI PENGKODEAN
+    public static final String TRANSAKSI_PENGKODEAN = "http://inventarissekolah.16mb.com/inventaris/input_transaksi_pengkodean.php";
+    public static final String KEY_PENGKODEAN_NOURUT = "no_urut";
+    public static final String KEY_PENGKODEAN_KODESUMBER = "kode";
+    public static final String KEY_PENGKODEAN_KODEBARANG = "kode_brg";
+    public static final String KEY_PENGKODEAN_KODEINVENTARIS = "kode_akhir";
+
+    //INPUT TRANSAKSI PEMELIHARAAN
+    public static final String TRANSAKSI_PEMELIHARAAN = "http://inventarissekolah.16mb.com/inventaris/input_transaksi_pemeliharaanbarang.php";
+    public static final String KEY_PEMELIHARAANBARANG_NOURUT = "no_urut";
+    public static final String KEY_PEMELIHARAANBARANG_KODEINVENTARIS = "kode";
+    public static final String KEY_PEMELIHARAANBARANG_KODELOKASI = "kode_brg";
+    public static final String KEY_PEMELIHARAANBARANG_KONDISIBAIK = "kon_baik";
+    public static final String KEY_PEMELIHARAANBARANG_KONDISIRUSAK = "kon_rusak";
+    public static final String KEY_PEMELIHARAANBARANG_KONDISIHILANG = "kon_hilang";
+
+    //INPUT TRANSAKSI PENEMPATAN
+    public static final String TRANSAKSI_PENEMPATAN = "http://inventarissekolah.16mb.com/inventaris/input_transaksi_penempatanbarang.php";
+    public static final String KEY_PENEMPATANBARANG_NOURUT = "no_urut";
+    public static final String KEY_PENEMPATANBARANG_KODEINVENTARIS = "kode_akhir";
+    public static final String KEY_PENEMPATANBARANG_KODELOKASI = "kode_bgn";
+    public static final String KEY_PENEMPATANBARANG_JUMLAH = "jumlah";
 }
