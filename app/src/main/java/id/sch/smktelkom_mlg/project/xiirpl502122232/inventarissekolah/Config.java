@@ -96,7 +96,7 @@ public class Config {
     public static final String TAG_JENIS_BRG = "jenis_brg";
 
     //READ MASTER LOKASI PENEMPATAN BARANG
-    public static final String READ_MASTER_LOKASIPENEMPATAN = "http://192.168.100.2/inventaris/read_master_lokasipenempatanbarang.php";
+    public static final String READ_MASTER_LOKASIPENEMPATAN = "http://inventarissekolah.16mb.com/inventaris/read_master_lokasipenempatanbarang.php";
     // Tags Format JSON
     public static final String TAG_JSON_LOKASI = "result";
     public static final String TAG_KODEAKHIR = "kode_akhir";
@@ -104,7 +104,7 @@ public class Config {
     public static final String TAG_JUMLAH = "jumlah";
 
     //READ MASTER SUMBER PENGADAAN
-    public static final String READ_MASTER_SUMBERPENGADAAN = "http://192.168.100.2/inventaris/read_master_sumberpengadaanbarang.php";
+    public static final String READ_MASTER_SUMBERPENGADAAN = "http://inventarissekolah.16mb.com/inventaris/read_master_sumberpengadaanbarang.php";
     // Tags Format JSON
     public static final String TAG_JSON_SUMBER = "result";
     public static final String TAG_KODE = "kode";
