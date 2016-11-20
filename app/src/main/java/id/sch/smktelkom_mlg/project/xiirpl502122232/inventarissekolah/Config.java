@@ -23,11 +23,11 @@ public class Config {
     public static final String LOGGEDIN_SHARED_PREF = "loggedin";
 
     //LAPORAN
-    public static final String URL_LAPORAN = "http://inventarissekolah.16mb.com/create_laporan.php";
+    public static final String LAPORAN = "http://inventarissekolah.16mb.com/inventaris/create_laporan.php";
     // Filed yang digunakan untuk dikirimkan ke Database, sesuaikan saja dengan Field di Tabel
+    public static final String KEY_LAPORAN_BAGIAN = "kode_bgn";
+    public static final String KEY_LAPORAN_BARANG = "kode_brg";
     public static final String KEY_LAPORAN_DESKRIPSI = "deskripsi";
-    public static final String KEY_LAPORAN_KELAS = "kelas";
-    public static final String KEY_LAPORAN_ID = "id";
 
     //INPUT MASTER BARANG
     public static final String MASTER_BARANG_URL = "http://inventarissekolah.16mb.com/inventaris/input_master_barang.php";
@@ -85,4 +85,13 @@ public class Config {
     public static final String KEY_PENEMPATANBARANG_KODEINVENTARIS = "kode_akhir";
     public static final String KEY_PENEMPATANBARANG_KODELOKASI = "kode_bgn";
     public static final String KEY_PENEMPATANBARANG_JUMLAH = "jumlah";
+
+
+    //READ MASTER BARANG
+    public static final String READ_MASTER_BARANG = "http://inventarissekolah.16mb.com/inventaris/read_master_barang.php";
+    // Tags Format JSON
+    public static final String TAG_JSON_ARRAY = "result";
+    public static final String TAG_KODE_BRG = "kode_brg";
+    public static final String TAG_NAMA_BRG = "nama_brg";
+    public static final String TAG_JENIS_BRG = "jenis_brg";
 }

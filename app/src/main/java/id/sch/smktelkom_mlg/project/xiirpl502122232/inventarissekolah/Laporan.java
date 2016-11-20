@@ -16,9 +16,9 @@ import java.util.HashMap;
 public class Laporan extends AppCompatActivity implements View.OnClickListener {
 
     //Mendefinisikan View Edit Text
+    private EditText editTextBagian;
+    private EditText editTextBarang;
     private EditText editTextDeskripsi;
-    private EditText editTextKelas;
-    private EditText editTextID;
 
     // Mendefinisikan View Button
     private Button buttonSubmit;
@@ -28,8 +28,8 @@ public class Laporan extends AppCompatActivity implements View.OnClickListener {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_laporan);
 
-        editTextKelas = (EditText) findViewById(R.id.editTextKelas);
-        editTextID = (EditText) findViewById(R.id.editTextID);
+        editTextBagian = (EditText) findViewById(R.id.editTextKodeBagian);
+        editTextBarang = (EditText) findViewById(R.id.editTextKodeBarang);
         editTextDeskripsi = (EditText) findViewById(R.id.editTextDeskripsi);
         buttonSubmit = (Button) findViewById(R.id.buttonSubmit);
 
@@ -65,8 +65,8 @@ public class Laporan extends AppCompatActivity implements View.OnClickListener {
     private void Lapordata() {
         // Ubah setiap View EditText ke tipe Data String
         final String deskripsi = editTextDeskripsi.getText().toString().trim();
-        final String kelas = editTextKelas.getText().toString().trim();
-        final String id = editTextID.getText().toString().trim();
+        final String barang = editTextBarang.getText().toString().trim();
+        final String bagian = editTextBagian.getText().toString().trim();
         // Pembuatan Class AsyncTask yang berfungsi untuk koneksi ke Database Server
 
         class Lapordata extends AsyncTask<Void, Void, String> {
@@ -91,11 +91,11 @@ public class Laporan extends AppCompatActivity implements View.OnClickListener {
                 HashMap<String, String> params = new HashMap<>();
                 // Sesuaikan bagian ini dengan field di tabel Mahasiswa
                 params.put(Config.KEY_LAPORAN_DESKRIPSI, deskripsi);
-                params.put(Config.KEY_LAPORAN_KELAS, kelas);
-                params.put(Config.KEY_LAPORAN_ID, id);
+                params.put(Config.KEY_LAPORAN_BARANG, barang);
+                params.put(Config.KEY_LAPORAN_BAGIAN, bagian);
 
                 RequestHandler rh = new RequestHandler();
-                String res = rh.sendPostRequest(Config.URL_LAPORAN, params);
+                String res = rh.sendPostRequest(Config.LAPORAN, params);
                 return res;
             }
         }
