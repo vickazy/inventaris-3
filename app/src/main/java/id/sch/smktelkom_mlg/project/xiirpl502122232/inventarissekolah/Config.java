@@ -4,6 +4,9 @@ public class Config {
     //URL to our login.php file
     public static final String LOGIN_URL = "http://inventarissekolah.16mb.com/inventaris/login.php";
 
+    // Link untuk LAPOR Data
+    public static final String URL_LAPORAN = "http://inventarissekolah.16mb.com/create_laporan.php";
+
     //Keys for email and password as defined in our $_POST['key'] in login.php
     public static final String KEY_EMAIL = "email";
     public static final String KEY_PASSWORD = "password";
@@ -20,4 +23,11 @@ public class Config {
 
     //We will use this to store the boolean in sharedpreference to track user is loggedin or not
     public static final String LOGGEDIN_SHARED_PREF = "loggedin";
+
+    // Filed yang digunakan untuk dikirimkan ke Database, sesuaikan saja dengan Field di Tabel
+    public static final String KEY_LAPORAN_DESKRIPSI = "deskripsi";
+    public static final String KEY_LAPORAN_KELAS = "kelas";
+    public static final String KEY_LAPORAN_ID = "id";
+
+
 }
